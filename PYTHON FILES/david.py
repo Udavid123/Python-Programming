@@ -315,9 +315,14 @@ else:
 
 """
 Auth: David
-"""
+
 name = "David"
 weight_lbs = input("what is your weight? ")
 weight_kg = int(weight_lbs) * 0.45
 message =(f"{name} weighs {weight_kg}kg.")
 print(message) 
+"""
+
+name = input("what is your name? ")
+favourite_colour = input("what is your favourite_colour? ")
+print(name + " likes" + favourite_colour)
